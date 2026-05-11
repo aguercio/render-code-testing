@@ -45,7 +45,7 @@ const Figure = styled.figure`
 `;
 
 function PhotoThumb({ photo, showImageDetails, addFavorite }) {
-  const url = `http://www.randyconnolly.com/funwebdev/3rd/images/travel/square150/${photo.filename}`;
+  const url = `https://www.randyconnolly.com/funwebdev/3rd/images/travel/square150/${photo.filename}`;
 
   return (
     <PhotoBox>
