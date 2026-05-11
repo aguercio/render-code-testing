@@ -14,7 +14,7 @@ function App() {
   const [showFavorites, setShowFavorites] = useState(true);
 
   useEffect(() => {
-    fetch("http://www.randyconnolly.com/funwebdev/3rd/api/travel/images.php")
+    fetch("https://www.randyconnolly.com/funwebdev/3rd/api/travel/images.php")
       .then(res => res.json())
       .then(data => {
         setPhotos(data);
